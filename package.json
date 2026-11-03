@@ -1,0 +1,15 @@
+{
+  "name": "apollo-cypress-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cypress end-to-end tests for the primary functionality of apollo.ee",
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:open": "cypress open",
+    "test:verify": "cypress verify"
+  },
+  "devDependencies": {
+    "cypress": "14.5.4"
+  }
+}
